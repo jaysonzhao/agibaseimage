@@ -25,7 +25,6 @@ RUN INSTALL_PKGS="tar java-1.8.0-openjdk java-1.8.0-openjdk-devel git ansible" &
     mkdir /tmp/src && \
     mkdir -p /opt/maven/repository/ && \
     chmod 777 /opt/maven/repository && \
-    chmod 777 /usr/local/bin/oc && \
     mkdir  /springboot/ && \
     mkdir /logs	
 
